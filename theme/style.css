@@ -1,0 +1,175 @@
+/* @import url("asset/font-police/Lato-Bold.ttf"); */
+
+* ,::after{
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+    /* overflow-x: hidden; */
+    
+}
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /* background-color:black; */
+}
+.bann{
+    width: 100%;
+    height: 490px;
+}
+.bann h3{
+    font-size: 40px;
+    color: white;
+    font-family: monospace;
+    padding:15px;
+    color: royalblue;
+}
+nav ul li{
+    justify-content: center;
+    margin-left: 650px;
+    margin-top: 5vh;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 64, 255);
+    padding: 10px;
+    border-radius: 10px;
+    filter: brightness(30px);
+    box-shadow: 0px 0px 15px rgb(0, 64, 255);
+    align-items: center;
+    
+}
+span{
+    color: crimson; 
+} 
+#span{
+    color: black;
+    transform: translateY(-28px);
+}
+.navig{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 3px 15px;
+}
+ul li{
+    list-style:none;
+}
+#ico_d{
+    transform: translateY(8px);
+    margin-left: 5px;
+}
+
+figure img{
+    border-radius: 50%;
+}
+
+.content_version{
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    margin-top: 500px auto;
+    box-shadow: 0px 0px 15px;
+}
+.label a{color: white;}
+.label{
+    box-sizing: border-box;
+    outline: none;
+    padding: 20px;
+    text-align: justify;
+    background-color: crimson;
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
+
+}
+hr{
+    background-color: #888;
+    padding-top: 5px;
+    width: 350px;
+    margin: 150px auto;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    border-color: none;
+    opacity: 0.8;
+}
+.lg{
+    display:inline-flex;
+}
+.lg .lb2{
+    margin-bottom: - 20px;
+}
+.description{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.description .BoxLeft_decrib{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    text-align: justify;
+    z-index: 4;
+}
+.description .BoxLeft_decrib #Title_desc{
+    font-size: 45px;
+}
+.description .BoxLeft_decrib #subTitle_desc{
+    z-index: 1;
+}
+.description .BoxLeft_decrib #subTitle_desc2{
+    font-style: italic;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-top: 15px;
+    color: #888;
+}
+.globalD{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 15px;
+    gap: 45%;
+}
+#lgWindows, #lgLinux{
+    width: 200px;
+}
+.windowSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.linuxSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.windowSection a, .linuxSection a{
+    width: 90px;
+    /* height: 30px; */
+    padding: 15px 15px 15px 15px;
+    margin: 20px 20px;
+    background-color: royalblue;
+    border-radius: 5px;
+    border-color: transparent;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0px 0px 0px 15px;
+
+
+}
+
+/* Ajouts pour le rendu responsive */
+#ff{
+    margin: 200px auto;
+    /* color: white; */
+}
